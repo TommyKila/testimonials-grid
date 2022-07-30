@@ -159,4 +159,8 @@ img {
     .testimonial-1 {
         background-position: 200px 0px;
     }
+    
+    .testimonial-1 h1 {
+        margin-right: 2em;
+    }
 }
