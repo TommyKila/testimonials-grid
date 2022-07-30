@@ -91,10 +91,11 @@ body {
     grid-column-start: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+    margin-right: -0.25em;
 }
 
 .sub-container {
-    padding: 2em 3.5em;
+    padding: 2em 3.25em;
 }
 
 h1 {
@@ -153,14 +154,14 @@ img {
 @media only screen and (max-width: 400px) {
     .container {
         width: 86%;
-        margin: 5em 0;
+        margin: 3em 0;
     }
-    
+
     .testimonial-1 {
         background-position: 200px 0px;
     }
-    
+
     .testimonial-1 h1 {
-        margin-right: -0.1em;
+        margin-right: 2em;
     }
 }
