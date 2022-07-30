@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    height: 100vh;
+    font-size: 10px;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.para {
+    opacity: 60%;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.level {
+    opacity: 50%;
+}
+
+.testimonial-1,
+.testimonial-2,
+.testimonial-4 {
+    color: hsl(0, 0%, 100%);
+}
+
+.testimonial-3,
+.testimonial-5 {
+    color: hsl(219, 29%, 14%);
+}
+
+.testimonial-3 .name,
+.testimonial-3 h1 {
+    color: hsl(217, 19%, 35%);
+}
+
+.testimonial-1 img {
+    outline: 0.2em solid rgb(140, 92, 219);
+}
+
+.testimonial-4 img {
+    outline: 0.2em solid hsl(263, 55%, 52%);
+}
+
+.testimonial {
+    border-radius: 1em;
+}
+
+.testimonial-1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 380px 0px;
+    grid-column: span 2;
+}
+
+.testimonial-2 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.testimonial-3 {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.testimonial-4 {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: span 2;
+}
+
+.testimonial-5 {
+    background-color: hsl(0, 0%, 100%);
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.sub-container {
+    padding: 2em 3.5em;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+img {
+    width: 3em;
+    border-radius: 2em;
+    margin-right: 1.5em;
+}
+
+.name {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.level {
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+
+    body {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 700px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .testimonial-5 {
+        background-color: hsl(0, 0%, 100%);
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-column-end: 4;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+    
+    .testimonial-1 {
+        background-position: 280px 0px;
+    }
+}
