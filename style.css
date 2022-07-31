@@ -166,7 +166,7 @@ img {
     .container {
         width: 86%;
         margin: 3em 0;
-        gap: 4em;
+        gap: 3em;
     }
 
     .testimonial-1 {
@@ -175,10 +175,6 @@ img {
 
     .testimonial-1 h1 {
         margin-right: 0.2em;
-    }
-    
-    .testimonial {
-        margin-bottom: 1em;
     }
     
     .para {
