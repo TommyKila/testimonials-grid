@@ -175,4 +175,8 @@ img {
     .testimonial-1 h1 {
         margin-right: 0.2em;
     }
+    
+    .para {
+        font-size: 0.85rem;
+    }
 }
