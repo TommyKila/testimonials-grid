@@ -155,16 +155,16 @@ img {
 
 @media only screen and (max-width: 700px) {
     .container {
-        width: 200px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         margin: 4em 0;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .container {
-        width: 60%;
+        width: 86%;
         margin: 3em 0;
     }
 
