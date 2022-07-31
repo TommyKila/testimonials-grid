@@ -63,6 +63,8 @@ body {
 
 .testimonial {
     border-radius: 1em;
+    box-shadow: 0.8em 0.8em 1em rgba(0, 0, 0, 0.15);
+    transition: 0.2s;
 }
 
 .testimonial-1 {
@@ -127,6 +129,12 @@ img {
     body {
         height: auto;
     }
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: none;
 }
 
 @media only screen and (max-width: 1000px) {
