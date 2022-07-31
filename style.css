@@ -166,6 +166,7 @@ img {
     .container {
         width: 86%;
         margin: 3em 0;
+        gap: 4em;
     }
 
     .testimonial-1 {
